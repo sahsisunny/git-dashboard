@@ -1,0 +1,23 @@
+{
+  "name": "git-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahsisunny/git-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahsisunny/git-dashboard/issues"
+  },
+  "homepage": "https://github.com/sahsisunny/git-dashboard#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

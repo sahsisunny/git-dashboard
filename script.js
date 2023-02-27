@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 const inputUsername = document.querySelector('#username');
 const viewBtn = document.querySelector('#view-details');
 const closeBTN = document.querySelector('.close-btn');
