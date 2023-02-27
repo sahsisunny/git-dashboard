@@ -20,7 +20,7 @@ const mergedPrsCount = document.querySelector('.merged-prs');
 const allPrsCount = document.querySelector('.all-prs');
 
 const ORG_NAME = "Real-Dev-Squad";
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const BASE_URL = "https://api.github.com/search/issues?";
 
 let username = "";
